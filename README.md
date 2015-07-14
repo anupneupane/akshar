@@ -4,11 +4,13 @@ Convert Numbers to Nepali Words( actually...Nepali words for Money ).
 
 e.g.
 
-1.to_akshar    # रुपैयाँ  एक मात्र ।
+1.to_akshar    # "रुपैयाँ  एक मात्र ।"
 
-100.to_akshar  # रुपैयाँ  एक सय मात्र । 
+100.to_akshar  # "रुपैयाँ  एक सय मात्र ।" 
 
-101.34.to_akshar # रुपैयाँ  एक सय एक, पैसा  चौँतिस मात्र ।
+101.34.to_akshar  # रुपैयाँ  एक सय एक, पैसा  चौँतिस मात्र ।
+
+1231232131231.to_akshar # "रुपैयाँ  बाह्र खर्ब एकत्तिस अर्ब तेईस करोड एक्काइस लाख एकत्तिस हजार दुई सय एकत्तिस मात्र ।" 
 
 
 ## Installation
@@ -29,7 +31,7 @@ Or install it yourself as:
 
 
 ## License
-	Copyright (c) 2015 anupbrt@outlook.com
+	Copyright (c) 2015 Anup Neupane
 The gem is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
