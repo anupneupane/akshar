@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["anupbrt@outlook.com"]
 
   spec.summary       = %q{Change Numbers to Nepali Names .i.e aanka to akshar ( अंक टु अक्षर )}
-  spec.description   = %q{This Gem will change Numbers to Nepali Names. example 100.akshar = "रुपैयाँ एक सय मात्र ।"}
+  spec.description   = %q{ Akshar(अक्षर). This Gem will change Numbers to Nepali Names. example 100.to_akshar = "रुपैयाँ एक सय मात्र ।"}
   spec.homepage      = "https://github.com/anupbrt/akshar"
   spec.license       = "MIT"
 
