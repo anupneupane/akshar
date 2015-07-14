@@ -7,7 +7,15 @@ module ToAkshar
 
   
 def to_akshar
-	return "रुपैयाँ  " + self.to_nepali + " मात्र । "
+	#return "रुपैयाँ  " + self.to_nepali + " मात्र । "
+	if (self.to_nepali == false )
+		result = "Impossible Number | Check your Input" 
+	else
+		result =  "रुपैयाँ  " + self.to_nepali + " मात्र ।"
+	end
+
+	return result.gsub(", पैसा  शुन्य", '')
+	
 end
 
   def to_nepali
@@ -29,7 +37,7 @@ end
     result = []
     while num != 0
 		if (num > 10000000000000000)
-    		return ("Very BIG NUMBER")
+    		return false
     	elsif ((num / 1000000000000000) >= 1)
     		test , remaining  = num.divmod(1000000000000000)
     		return ((sign + SMALL_NUMBERS[test]) +" पद्म "+ (remaining.to_s+ "."+ paisa).to_nepali )
@@ -87,5 +95,9 @@ class Float
 end
 
 class String
+	include ToAkshar
+end
+
+class Bignum
 	include ToAkshar
 end
