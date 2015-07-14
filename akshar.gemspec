@@ -9,8 +9,8 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Anup Neupane"]
   spec.email         = ["anupbrt@outlook.com"]
 
-  spec.summary       = %q{Change Numbers to Nepali Names .i.e aanka to akshar }
-  spec.description   = %q{This Gem will change Numbers to Nepali Names. example 100.akshar = "ek saya"}
+  spec.summary       = %q{Change Numbers to Nepali Names .i.e aanka to akshar ( अंक टु अक्षर )}
+  spec.description   = %q{This Gem will change Numbers to Nepali Names. example 100.akshar = "रुपैयाँ एक सय मात्र ।"}
   spec.homepage      = "https://github.com/anupbrt/akshar"
   spec.license       = "MIT"
 
