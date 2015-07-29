@@ -21,12 +21,12 @@ Gem::Specification.new do |spec|
   # Prevent pushing this gem to RubyGems.org by setting 'allowed_push_host', or
   # delete this section to allow pushing this gem to any host.
 
-  spec.files         = `git ls-files -z`.split("\x0")
-  spec.executables   = spec.files.grep(%r{^bin/}) { |f| File.basename(f) }
-  spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
-  spec.require_paths = ["lib"]
+  # spec.files         = `git ls-files -z`.split("\x0")
+  # spec.executables   = spec.files.grep(%r{^bin/}) { |f| File.basename(f) }
+  # spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
+  # spec.require_paths = ["lib"]
 
-  spec.add_development_dependency "bundler", "~> 1.10"
-  spec.add_development_dependency "rake", "~> 10.0"
+  # spec.add_development_dependency "bundler", "~> 1.10"
+  # spec.add_development_dependency "rake", "~> 10.0"
   
 end
